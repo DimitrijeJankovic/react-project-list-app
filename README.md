@@ -1,3 +1,10 @@
+My first react.js app for projects list.
+
+Buld with:
+    - React
+    - Redux
+    - Firebase
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
