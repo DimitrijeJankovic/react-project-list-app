@@ -8,6 +8,7 @@ import Navbar from './components/layout/Navbar'
 import ProjectDetails from './components/projects/ProjectDetails'
 import SingIn from './components/auth/SignIn'
 import SingUp from './components/auth/SingUp'
+import CreateProject from './components/projects/CreateProject'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/project/:id' component={ProjectDetails} />
         <Route path='/singin' component={SingIn} />
         <Route path='/singup' component={SingUp} />
+        <Route path='/create-project' component={CreateProject} />
       </Switch>
     </div>
     </BrowserRouter>
